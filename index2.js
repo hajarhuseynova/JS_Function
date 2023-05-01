@@ -1,4 +1,4 @@
 let printFullNameWithParam = (firstName, lastName) => {
-  console.log(firstName + " " + lastName);
+  return firstName + " " + lastName;
 };
-printFullNameWithParam("Hajar", "Huseynova");
+console.log(printFullNameWithParam("Hajar", "Huseynova"));
