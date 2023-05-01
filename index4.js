@@ -1,7 +1,7 @@
 function BMI(weight, height) {
   return weight / (height * height);
 }
-result = BMI(50, 1.9);
+let result = BMI(50, 1.9);
 console.log(result);
 
 if (result < 18.5) {
